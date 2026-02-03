@@ -129,27 +129,9 @@ Continued use of the App after changes constitutes acceptance of the updated pol
 
 If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
-- **Email:** privacy@begtera.com
+- **Email:** begtera.help@gmail.com
 - **Support:** Through the in-app support feature
 
-## Additional Information for Specific Regions
-
-### European Union (GDPR)
-If you are in the EU, you have additional rights including:
-- Right to access your data
-- Right to rectification
-- Right to erasure ("right to be forgotten")
-- Right to data portability
-- Right to object to processing
-- Right to lodge a complaint with a supervisory authority
-
-### California (CCPA)
-California residents have the right to:
-- Know what personal information is collected
-- Know whether personal information is sold or disclosed
-- Say no to the sale of personal information
-- Access personal information
-- Equal service and price
 
 ## Consent
 
