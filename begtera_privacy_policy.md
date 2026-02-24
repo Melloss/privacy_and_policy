@@ -104,6 +104,15 @@ We retain your personal information for as long as:
 
 After account deletion, we may retain anonymized data for analytics purposes.
 
+## User Safety and Reporting
+
+BegTera provides in-app tools that allow users to:
+- Block other users
+- Report inappropriate behavior or content
+- Report fake profiles
+
+We review reports and may suspend or permanently ban accounts that violate our community guidelines.
+
 ## Children's Privacy
 
 BegTera is not intended for users under 18 years of age. We do not knowingly collect information from children under 18. If we discover we have collected information from a child under 18, we will delete it immediately.
