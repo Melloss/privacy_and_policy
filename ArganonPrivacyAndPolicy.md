@@ -43,7 +43,11 @@ The App uses Firebase Cloud Messaging (Google) to notify you when new hymns are 
 
 Some features — downloading a hymn, downloading a whole category, downloading the full kidase, setting a hymn as a ringtone, saving another user's shared category, and publishing a category — are unlocked by watching a short advertisement. Advertisements are served by **Google AdMob**.
 
-To serve, measure and protect those advertisements, Google collects and processes information such as your advertising identifier, IP address, device model, operating system, coarse (country/city-level) location derived from your IP address, and your interactions with the ad. We never receive this information ourselves; it goes to Google, which acts as an independent controller of it. Google's practices are described at:
+To serve, measure and protect those advertisements, Google collects and processes information such as your advertising identifier, IP address, device model, operating system, location, and your interactions with the ad. We never receive this information ourselves; it goes to Google and, where you have consented, to Google's advertising partners, each acting as an independent controller of it.
+
+Where you are shown a consent form, that form names the advertising partners involved and lets you review them individually ("Manage options" → "List of partners"). Depending on the choices you make there, those partners may store and access information on your device and may use **precise geolocation data**. Declining, or choosing "Do not consent", prevents that use; you may still see non-personalised advertisements.
+
+Google's practices are described at:
 
 - https://policies.google.com/technologies/partner-sites — "How Google uses information from sites or apps that use our services"
 - https://business.safety.google/adsservices/
