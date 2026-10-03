@@ -2,195 +2,457 @@
 
 ## Privacy Policy
 
-**Effective date:** 4 August 2026
-**Last updated:** 4 August 2026
-**Replaces:** the version dated 19 June 2024
+**Effective date:** 3 October 2026  
+**Last updated:** 3 October 2026  
+**Replaces:** the version dated 4 August 2026
 
 ### Introduction
 
 Arganon ("we", "us", "our") is a mobile application for browsing, streaming, downloading and studying Ethiopian Orthodox Tewahedo mezmur (hymns) and kidase (liturgy). It is developed and maintained by Mikias Tekalign (Melloss), reachable at mellossdev@gmail.com.
 
-This policy explains what information the App collects, why, who it is shared with, and what choices you have. It applies to the Arganon mobile application on Android and, when released, iOS.
+This Privacy Policy explains what information the App collects, why it is collected, who it may be shared with, how it is used, how long it may be retained, and what choices you have.
 
-**Arganon has no user accounts.** You do not register, and we never ask for your name, email address, phone number, or location. Most of what the App stores stays on your device.
+It applies to the Arganon mobile application on Android and, when released, iOS.
+
+Arganon has no user accounts. You do not register, and we do not ask you to provide your name, email address, phone number, or precise location in order to use the App. Most information stored for personal use remains on your device.
 
 ### What we collect
 
-**1. Information stored only on your device**
+#### 1. Information stored only on your device
 
-Your favourites, downloaded hymns, custom categories, chosen colour palette, category filters, lyric font size and playback preferences are saved in the App's local storage and in your device's file storage. This information is not sent to us. Uninstalling the App or clearing its data removes it.
+Your favourites, downloaded hymns, custom categories, chosen colour palette, category filters, lyric font size and playback preferences are saved in the App's local storage and/or your device's file storage.
 
-**2. A random app identifier**
+This information is not sent to us as part of the ordinary use of these features.
 
-The first time you use a shared feature, the App generates a random identifier (a UUID such as `f47ac10b-58cc-…`) and stores it on your device. It is not your device's hardware id, advertising id, phone number or any other permanent identifier, and it cannot be traced back to you personally.
+Uninstalling the App or clearing its application data removes locally stored application information.
 
-It is sent to our server only when you publish a category, vote on one, or delete one, so that the server can tell that the person editing or deleting a shared category is the person who created it. Clearing the App's data or reinstalling generates a new one — after which previously published categories can no longer be edited or deleted from your device.
+Downloaded files may remain in locations managed by your operating system or file manager unless you remove them separately.
 
-**3. Content you choose to submit**
+#### 2. A random app identifier
+
+The first time you use a shared feature, the App generates a random identifier (a UUID such as `f47ac10b-58cc-…`) and stores it on your device.
+
+This identifier is not your device's hardware identifier, advertising identifier, phone number, email address, or name, and we do not use it as a direct representation of your identity.
+
+It is sent to our server only when you publish a category, vote on a shared category, or delete a category, so that the server can distinguish the installation that created or previously acted on that category.
+
+Clearing the App's data or reinstalling the App generates a new identifier. As a result, previously published categories may no longer be editable or deletable from that installation.
+
+#### 3. Content you choose to submit
+
+Some features allow you to voluntarily send information to our servers:
 
 - **Mezmur requests** — the hymn title and artist name you type.
-- **Feedback** — the text you write, the hymn it concerns, and your notification token (below) so that we can send you a reply.
-- **Public categories** — the title, description and hymn list of any category you choose to publish, plus the random app identifier described above. Anything you publish becomes visible to other users of the App and can be opened by anyone with the shareable link.
-- **Votes** — which shared category you voted on, and the random app identifier, so a category cannot be voted on twice from the same install.
+- **Feedback** — the text you write, the hymn or feature it concerns, and your notification token where needed so that we can send you a reply.
+- **Public categories** — the title, description and hymn list of any category you choose to publish, together with the random app identifier described above. Published categories are visible to other users and may be opened by anyone who has the relevant shareable link.
+- **Votes** — which shared category you voted on and the random app identifier, so that the same installation cannot vote repeatedly on the same category.
 
-Everything in this group is voluntary. If you never use these features, nothing is submitted.
+Everything in this section is voluntary. If you do not use these features, the related information is not submitted.
 
-**4. Notification token**
+Please do not submit personal information about yourself or another person in public category titles, descriptions, feedback, requests, or other user-generated content unless it is necessary and appropriate.
 
-The App uses Firebase Cloud Messaging (Google) to notify you when new hymns are added. Firebase issues a token that identifies your installation of the App for the purpose of delivering messages. The token is stored by Google and is sent to us together with feedback you submit, so we can reply to it. It is not a personal identifier and changes when you reinstall.
+#### 4. Notification token
 
-**5. Advertising data**
+The App uses Firebase Cloud Messaging ("FCM"), provided by Google, to send notifications when new hymns are added and for other notification-related features.
 
-Some features — downloading a hymn, downloading a whole category, downloading the full kidase, setting a hymn as a ringtone, saving another user's shared category, and publishing a category — are unlocked by watching a short advertisement. Advertisements are served by **Google AdMob**.
+Firebase may issue a token that identifies your installation of the App for the purpose of delivering notifications.
 
-To serve, measure and protect those advertisements, Google collects and processes information such as your advertising identifier, IP address, device model, operating system, location, and your interactions with the ad. We never receive this information ourselves; it goes to Google and, where you have consented, to Google's advertising partners, each acting as an independent controller of it.
+The notification token may be stored by Google and may be sent to our servers when needed for notification-related functions, including when you submit feedback and we need a way to send you a reply.
 
-Where you are shown a consent form, that form names the advertising partners involved and lets you review them individually ("Manage options" → "List of partners"). Depending on the choices you make there, those partners may store and access information on your device and may use **precise geolocation data**. Declining, or choosing "Do not consent", prevents that use; you may still see non-personalised advertisements.
+The notification token is an installation/device identifier used for messaging and is not intended by us to identify you by name.
 
-Google's practices are described at:
+#### 5. Advertising and mediation data
 
-- https://policies.google.com/technologies/partner-sites — "How Google uses information from sites or apps that use our services"
-- https://business.safety.google/adsservices/
+Some features — including downloading a hymn, downloading a whole category, downloading the full kidase, setting a hymn as a ringtone, saving another user's shared category, and publishing a category — may be unlocked by watching a short advertisement.
 
-Advertisements in Arganon are restricted to a **G (general audiences)** content rating.
+Arganon uses **Appodeal's advertising mediation platform** to request and manage advertisements. Depending on the configuration of the App, advertisements may be supplied by Appodeal and by third-party advertising partners connected through Appodeal, including Google AdMob and other participating ad networks.
 
-**6. Technical information from ordinary use**
+To provide, measure, personalize where permitted, prevent fraud, and improve advertising services, Appodeal and participating advertising partners may process information such as:
 
-When the App fetches the hymn list, streams or downloads audio, or submits any of the above, our hosting providers automatically receive the standard technical information every internet request carries — IP address, request time, and general device/network information. It is used to deliver the content and to keep the service secure and functioning, and is not used to build a profile of you.
+- Advertising ID and other device or advertising identifiers;
+- IP address;
+- device model and operating system;
+- network and carrier information;
+- browser or user-agent information where applicable;
+- ad impressions, clicks and other ad interactions;
+- diagnostics and technical device/performance information;
+- other information required by the applicable advertising network to serve and measure advertisements.
+
+Appodeal's current Android documentation states that its SDK itself collects advertising-related app interactions, diagnostics, other app performance data, Advertising ID and other identifiers including IP/network information. It also states that location collection is optional and depends on the permissions declared and granted by the app. The data practices of individual mediated ad networks are separate and may differ.  
+Reference: https://docs.appodeal.com/android/data-protection/app-privacy-details
+
+Arganon does not intentionally send your religious affiliation, religious beliefs, or similar sensitive information to advertising providers as an advertising targeting field.
+
+Where required, advertising partners may process data for personalized or non-personalized advertising according to your consent choices and applicable law.
+
+We do not control the individual advertisements shown by third-party advertising providers, and we do not endorse the products or services advertised.
+
+#### 6. Technical information from ordinary use
+
+When the App fetches the hymn list, streams or downloads audio, or submits requests to our servers, our hosting providers and infrastructure may automatically receive standard technical information associated with network requests.
+
+This may include:
+
+- IP address;
+- request date and time;
+- general device or network information;
+- connection information required to deliver the requested service.
+
+We use this information for purposes such as delivering content, operating the service, diagnosing technical problems, preventing abuse, maintaining security, and keeping the service available.
+
+We do not intentionally use this ordinary server-side technical information to build a personal profile of you.
 
 ### What we do not collect
 
-We do not collect your name, email address, phone number, contacts, calendar, photos, precise GPS location, or the contents of your device's storage. The App contains no analytics or tracking SDK beyond what is described above for advertising and notifications. We do not sell your information, and we do not share it with third parties for their own marketing.
+Arganon does not require you to provide:
 
-### Your advertising choices (consent)
+- your name;
+- your email address;
+- your phone number;
+- your contacts;
+- your calendar;
+- your photos;
+- your precise GPS location; or
+- the contents of your device's private storage.
 
-If you are in the European Economic Area, the United Kingdom, Switzerland, or a US state with applicable privacy legislation, the App shows you a consent form from Google's User Messaging Platform **before** any advertisement is requested. You choose whether Google may use your data for personalised advertising.
+Arganon does not use a separate first-party analytics SDK.
 
-- If you consent, you may see personalised advertisements.
-- If you decline, you may still see advertisements, but non-personalised ones.
-- You can change your answer at any time: **Settings → የማስታወቂያ ፈቃድ** ("Ad consent"). The option appears wherever the law requires it.
-- If no advertisement can be shown to you at all, the ad-supported feature is unlocked anyway. **You are never denied a feature because of an advertising choice.**
+However, third-party advertising and infrastructure SDKs and services described in this Privacy Policy may collect technical, advertising, diagnostic, or interaction data as necessary for their services.
 
-On Android you can also reset or delete your advertising id in your device settings (Settings → Google → Ads).
+We do not sell your information.
+
+We do not intentionally share your information with unrelated third parties for their own independent marketing purposes outside the advertising services and other third-party services described in this policy.
+
+### Your advertising choices and consent
+
+Where required by applicable privacy law, including in the European Economic Area (EEA), United Kingdom, Switzerland, and applicable US jurisdictions, Arganon uses a consent mechanism compatible with the applicable requirements for advertising and privacy consent.
+
+Because Arganon currently uses Appodeal mediation with Google AdMob enabled, the applicable consent flow is configured to work with Google's consent framework and the IAB Transparency and Consent Framework (TCF), where applicable.
+
+The consent interface may allow you to review advertising partners and the purposes for which information may be processed.
+
+Depending on your choices and applicable law:
+
+- you may consent to personalized advertising;
+- you may decline certain purposes or partners;
+- you may receive non-personalized advertising where available; and
+- certain advertising-related processing may not take place when you do not consent.
+
+Appodeal states that its SDK supports Google UMP and IAB TCF v2 and that its consent management flow can request consent automatically when it is required.
+
+Appodeal privacy information:
+https://appodeal.com/privacy-policy/
+
+Google privacy information:
+https://policies.google.com/technologies/partner-sites
+
+You may change your advertising consent choices from:
+
+**Settings → የማስታወቂያ ፈቃድ ("Ad consent")**
+
+where that option is available in the App.
+
+On Android, you can also reset or delete your device's Advertising ID through the device's advertising/privacy settings.
+
+If no advertisement can be shown or an applicable advertising provider has no available ad, Arganon may still unlock the related feature according to the App's current functionality. You are not required to purchase an advertising product or otherwise pay us merely because an advertisement could not be displayed.
 
 ### Permissions the App asks for
 
-| Permission | Why |
-| --- | --- |
-| Internet / network state | Fetch the hymn list, stream and download audio, serve advertisements |
-| Notifications | Tell you when new hymns are added and show download/playback controls |
-| Storage / audio media | Save downloaded hymns to your Downloads folder and read them back |
-| Modify system settings | Only when you choose "set as ringtone" |
-| Foreground service, wake lock | Keep playback and downloads running while the screen is off |
+| Permission / capability | Why it is used |
+|---|---|
+| Internet / network access | Fetch the hymn list, stream and download audio, communicate with our servers, and support advertising |
+| Network state information | Help determine network availability for online features and media delivery |
+| Notifications | Tell you when new hymns are added and provide notification-related playback/download controls |
+| Storage / audio media | Save downloaded hymns and other supported audio content to device storage and read them back |
+| Modify system settings / ringtone-related capability | Only when you explicitly choose the option to set a hymn as a ringtone |
+| Foreground service | Keep supported playback or long-running operations active while the screen is off |
+| Wake lock | Help keep supported playback or long-running operations active when required |
 
-Declining a permission only disables the feature that needs it; the rest of the App keeps working.
+The exact permissions requested may depend on your Android/iOS version, device, operating-system rules, and the App features you use.
+
+If you decline an optional permission, the feature that depends on it may not work, while the rest of the App can continue to function.
+
+Arganon does not request location permission for ordinary use. Appodeal's documentation states that its location collection is optional and depends on whether the application declares and receives location permissions.
 
 ### Who your information is shared with
 
-| Provider | What it receives | Purpose |
-| --- | --- | --- |
-| Google AdMob / Google Ireland & LLC | Advertising data (section 5) | Serving and measuring advertisements |
-| Google Firebase Cloud Messaging | Notification token | Delivering notifications |
-| Supabase | Requests, feedback, published categories, votes, random app identifier, IP | Hosting the hymn database and shared content |
-| Cloudflare R2 | IP and request metadata | Delivering audio files |
-| Google Play / Apple App Store | Install and crash information they collect themselves | Distributing the App |
+| Provider | What it may receive | Purpose |
+|---|---|---|
+| **Appodeal** | Advertising-related identifiers, IP/network information, ad interactions, diagnostics and technical device/performance information as described above | Advertising mediation, ad delivery, measurement, fraud prevention, diagnostics and related advertising services |
+| **Google AdMob / Google** | Advertising and technical information associated with advertising requests, where Google demand is used through Appodeal | Serving, measuring and protecting advertisements |
+| **Other advertising partners enabled through Appodeal** | Data required under the applicable network's advertising and privacy practices | Serving, measuring, personalizing where permitted, and protecting advertisements |
+| **Google Firebase Cloud Messaging** | Notification token and related messaging information | Delivering notifications |
+| **Supabase** | Requests, feedback, published categories, votes, random app identifier, IP and standard request information | Hosting the hymn database, shared content and related API services |
+| **Cloudflare R2 / Cloudflare infrastructure** | IP address and standard request/network metadata | Delivering audio files and supporting content delivery/infrastructure |
+| **Google Play / Apple App Store** | Information that the respective store/platform collects directly | App distribution, installation and platform services |
 
-These providers process data on servers outside Ethiopia, including in the European Union and the United States. By using the App you agree to that transfer. Where required, we rely on the providers' standard contractual clauses.
+Each third-party provider may process information according to its own privacy policy and legal obligations.
 
-### How long it is kept
+In particular, advertising networks connected through Appodeal may have different data practices. Appodeal's own data-disclosure documentation covers the Appodeal SDK itself and states that publishers must separately account for the data practices of each mediated advertising network used in the application.
 
-- Data on your device: until you delete it or uninstall the App.
-- Published categories and votes: until you delete them in the App, or until we remove them under the Terms below.
-- Requests and feedback: for as long as needed to act on them, and afterwards as a record of changes made to the App.
-- Advertising and notification data: according to Google's own retention policies, linked above.
+Relevant privacy information includes:
+
+- Appodeal: https://appodeal.com/privacy-policy/
+- Google: https://policies.google.com/privacy
+- Google Ad services information: https://policies.google.com/technologies/partner-sites
+- Firebase: https://firebase.google.com/support/privacy
+- Supabase: https://supabase.com/privacy
+- Cloudflare: https://www.cloudflare.com/privacypolicy/
+
+### International data transfers
+
+Some third-party service providers may process information on servers located outside Ethiopia and may process or transfer information in countries including the European Union and the United States.
+
+Where required by applicable law, the relevant provider may use contractual safeguards or other legally recognized transfer mechanisms.
+
+Arganon does not rely on your general use of the App as a substitute for any consent or other legal basis that is specifically required for processing under applicable law.
+
+### How long information is kept
+
+The retention period depends on the type of information and the service involved.
+
+- **Information stored on your device:** generally remains until you delete it, clear the App's data, remove the relevant file, or uninstall the App.
+- **Published categories:** retained while they remain published, unless you delete them or we remove them.
+- **Votes:** retained as necessary to operate the shared-category voting feature and prevent duplicate votes.
+- **Mezmur requests:** retained for as long as reasonably needed to process, review, and manage the request and related service operations.
+- **Feedback:** retained for as long as reasonably needed to respond, investigate the issue, and maintain an appropriate support record.
+- **Advertising data collected by Appodeal and advertising partners:** retained according to the applicable provider's retention practices and privacy policy.
+- **Notification-related information:** retained according to the needs of the notification service and the applicable provider's retention practices.
+- **Server logs and technical request information:** retained for as long as reasonably necessary for service operation, security, troubleshooting, abuse prevention and legal obligations.
+
+Where a third-party provider controls retention of information collected through its SDK or service, that provider's applicable retention policy will govern its systems.
 
 ### Your rights
 
-Depending on where you live, you may have the right to access, correct, delete, or export your information, to object to or restrict its processing, and to lodge a complaint with your data protection authority.
+Depending on where you live, you may have rights to:
 
-In practice, for Arganon:
+- access your personal information;
+- request correction of inaccurate information;
+- request deletion of information;
+- request export or portability of certain information;
+- object to or restrict certain processing;
+- withdraw consent where processing is based on consent; and
+- lodge a complaint with the relevant data protection authority.
 
-- **Categories you published** — delete them yourself in the App; deletion is immediate and permanent.
-- **Anything else** — email mellossdev@gmail.com. Because the App has no accounts, please include the App identifier so we can find your data: open the About screen and **long-press the Arganon logo** to copy it to your clipboard, then paste it into the email. Without it we may be unable to locate records that belong to you.
+Some rights may be limited by applicable law or may apply differently depending on the type of information and the party controlling the processing.
 
-We answer requests within 30 days.
+### In practice, for Arganon
+
+- **Published categories** — you can delete your published categories through the App where the feature provides deletion.
+- **Shared-category information and votes** — you can contact us regarding information associated with your random app identifier.
+- **Feedback and requests** — contact us using the information below.
+- **Advertising consent** — use the App's advertising-consent settings where available.
+- **Third-party advertising data** — where an advertising provider processes data directly as a controller or separate service provider, you may also need to contact that provider using the privacy and rights mechanisms described in its own privacy policy.
+
+Because Arganon does not use conventional user accounts, please include the random app identifier when contacting us about information that is associated with a specific installation.
+
+You can find the identifier in the App's About screen. Where supported, long-press the Arganon logo to copy the identifier to your clipboard and include it in your email.
+
+Without an identifier or other useful information, we may be unable to locate records associated with your installation.
+
+We aim to respond to privacy requests within 30 days unless a different period is required or permitted by applicable law.
 
 ### Children
 
-Arganon is not directed at children under 13 (or the equivalent minimum age where you live) and we do not knowingly collect information from them. Advertisements are limited to a G content rating. If you believe a child has provided us with information, contact us and we will delete it.
+Arganon is not directed specifically at children under 13, or the equivalent minimum age where you live.
+
+We do not knowingly ask children to create an account because Arganon does not require user accounts.
+
+Arganon should not be used by children to submit unnecessary personal information through feedback, public categories, requests, or other shared features.
+
+If you believe that a child has submitted personal information to us, please contact us and we will review the request and take appropriate action consistent with applicable law.
+
+Advertising and third-party SDKs are configured according to the requirements applicable to the app and the users to whom advertisements are shown.
 
 ### Security
 
-Data in transit is encrypted with HTTPS/TLS. Access to our hosting is restricted, and the shared-content database enforces that only the device that published a category can change it. No system is completely secure, and we cannot guarantee absolute security.
+Data transmitted between the App and our servers is protected using HTTPS/TLS.
 
-### Changes to this policy
+Access to our infrastructure is restricted, and shared-content functionality uses server-side controls intended to ensure that only the installation associated with a category can make permitted changes to that category.
 
-We may update this policy. The "Last updated" date at the top will change, and material changes will be announced in the App. Continuing to use the App after a change means you accept it.
+We use reasonable technical and organizational measures appropriate to the nature of the information we process.
+
+However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
+
+### Changes to this Privacy Policy
+
+We may update this Privacy Policy from time to time.
+
+The "Last updated" date at the top of this policy will be changed when material changes are made.
+
+Where required by applicable law, we will provide additional notice of material changes through the App or another appropriate method.
+
+The updated policy becomes effective on the date shown at the top of the revised policy.
 
 ### Contact
 
-- Email: mellossdev@gmail.com
-- Telegram: https://t.me/mellossDev
+Questions, privacy requests, or concerns about this Privacy Policy can be sent to:
+
+**Email:** mellossdev@gmail.com  
+**Telegram:** https://t.me/mellossDev
 
 ---
 
-## Terms of Service
+# Terms of Service
 
-**Effective date:** 4 August 2026
-**Replaces:** the version dated 19 June 2024
+**Effective date:** 3 October 2026  
+**Replaces:** the version dated 4 August 2026
 
-Welcome to Arganon. These Terms govern your access to and use of the Arganon mobile application. By using the App you agree to them. If you disagree with any part, please do not use the App.
+Welcome to Arganon. These Terms govern your access to and use of the Arganon mobile application.
+
+By using the App, you agree to these Terms to the extent permitted by applicable law. If you do not agree, please do not use the App.
 
 ### 1. What Arganon is
 
-Arganon is a free application providing Ethiopian Orthodox Tewahedo hymns and liturgy for personal, devotional and study use. It is offered as a service to the community, not as a commercial product, and no account is required.
+Arganon is a free application providing Ethiopian Orthodox Tewahedo hymns and liturgy for personal, devotional and study use.
+
+It is offered as a community-oriented service and does not require a user account.
 
 ### 2. Content and ownership
 
-The App itself — its software, design, layout, logo and original text — belongs to its developer, Mikias Tekalign (Melloss).
+The App itself, including its software, design, layout, logo and original text, belongs to its developer, Mikias Tekalign (Melloss), except where third-party rights apply.
 
-**The hymns, recordings, lyrics and liturgical texts in the App are not ours.** They remain the property of the singers, composers, choirs, publishers and rights holders who created them, and are made available here for devotional and educational use. Portions of the kidase material originate from publicly available recordings, credited in the App's About screen.
+The hymns, recordings, lyrics and liturgical texts available through the App may belong to singers, composers, choirs, publishers, churches, contributors, or other rights holders.
 
-If you hold rights in any recording, lyric or text in the App and want it credited differently or removed, email mellossdev@gmail.com with proof of your rights and identification of the material. We will act on valid requests promptly.
+Arganon does not claim ownership of third-party works merely because they are available through the App.
 
-You may listen to and download content for your own personal use. You may not redistribute it commercially, sell it, or present it as your own work.
+Some Kidase and mezmur materials may originate from publicly available recordings or other sources and may be credited in the App's About screen where applicable.
+
+If you hold rights in a recording, lyric, image, text, or other material available through Arganon and believe it should be credited differently or removed, contact melloss@gmail.com or the contact address above with sufficient information to identify the material and, where relevant, evidence of your rights.
+
+We may review valid rights-holder requests and take appropriate action.
+
+Unless otherwise permitted by applicable law or expressly authorized by the relevant rights holder, you may use content made available through Arganon for your own personal, devotional, educational, or study purposes.
+
+You may not sell, commercially redistribute, repackage, or present third-party content available through Arganon as your own work where you do not have the necessary rights.
 
 ### 3. Content you share
 
-When you publish a category, submit a request, or send feedback, you confirm that what you submit is yours to share and that it is appropriate for a devotional application.
+When you publish a category, submit a request, or send feedback, you are responsible for the content you choose to submit.
 
-You give us permission to store, display and distribute what you publish inside the App, for as long as it remains published. You keep any rights you have in it.
+You confirm that, to the extent applicable:
 
-Do not publish content that is offensive, misleading, unrelated to Orthodox worship, commercial, or unlawful. We may remove any shared content, or restrict access to the sharing features, without notice.
+- you have the right or permission to submit the content;
+- the submission does not knowingly infringe another person's rights;
+- the submission is appropriate for a devotional application; and
+- the submission does not knowingly violate applicable law.
+
+When you publish a category, you give us a non-exclusive permission to store, display, and distribute that category within Arganon for as long as it remains published and to the extent necessary to operate the sharing feature.
+
+You retain any rights you otherwise have in your content.
+
+Do not publish content that is unlawful, defamatory, misleading, unrelated to the purpose of the sharing feature, commercial advertising, or otherwise inappropriate for the App.
+
+We may remove shared content or restrict access to sharing features where necessary to protect users, the service, or our legal rights.
 
 ### 4. Advertisements
 
-Some features are unlocked by watching an advertisement. Advertisements are supplied by third parties and we do not control or endorse what they show. You agree not to circumvent, automate, or otherwise interfere with the advertising features. If an advertisement cannot be shown, the feature is unlocked anyway — you are never required to watch one to use the App.
+Some features are unlocked through advertisements.
+
+Advertising is provided through third-party advertising services and Appodeal mediation.
+
+We do not control or endorse the products, services, claims, or content contained in individual third-party advertisements.
+
+You agree not to:
+
+- click your own advertisements for the purpose of generating revenue;
+- use automated tools to generate impressions or clicks;
+- manipulate advertising systems;
+- interfere with advertising delivery; or
+- attempt to circumvent technical restrictions intended to protect the advertising service.
+
+If an advertisement cannot be displayed, Arganon's current functionality may allow the related feature without an advertisement.
 
 ### 5. Acceptable use
 
-You agree not to use the App to break the law, infringe anyone's rights, transmit harmful or offensive material, attempt to gain unauthorised access to our systems or another user's data, or interfere with the App's normal operation.
+You agree not to use the App to:
+
+- break applicable law;
+- infringe another person's rights;
+- transmit harmful or unlawful material;
+- submit malicious code;
+- attempt unauthorized access to our systems or another user's data;
+- abuse, manipulate, or disrupt shared features;
+- interfere with normal operation of the App; or
+- misuse advertising systems.
 
 ### 6. Availability
 
-The App depends on services we do not control. Hymns may be added, changed or removed, features may change, and the App or its servers may be unavailable at times. We may discontinue the App or any feature at any time.
+Arganon depends on services and infrastructure that we do not completely control.
+
+Hymns, recordings, lyrics, categories, features, and other content may be added, changed, or removed.
+
+The App or its servers may be unavailable at times because of maintenance, outages, network conditions, third-party service failures, or other circumstances.
+
+We may discontinue or modify the App or any feature at any time, subject to applicable law.
 
 ### 7. Disclaimer
 
-The App is provided "as is" and "as available", without warranty of any kind, express or implied, including merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the App will be uninterrupted, error-free, or free of harmful components, nor that the lyrics or liturgical texts are free of transcription errors.
+The App is provided on an "as is" and "as available" basis to the fullest extent permitted by law.
+
+We do not guarantee that:
+
+- the App will always be available;
+- the App will be uninterrupted or error-free;
+- every recording, lyric, or liturgical text will always be available;
+- lyrics or liturgical text will always be free of transcription errors; or
+- third-party services will always operate without interruption.
+
+Nothing in these Terms excludes or limits rights or remedies that cannot legally be excluded or limited.
 
 ### 8. Limitation of liability
 
-To the fullest extent permitted by law, we are not liable for any indirect, incidental, special or consequential damages, or for loss of data, arising out of your use of or inability to use the App, including loss of downloaded content or of categories you published. Nothing in these Terms limits liability that cannot be limited by law.
+To the fullest extent permitted by applicable law, we are not liable for indirect, incidental, special, consequential, or similar damages arising from your use of, or inability to use, the App.
 
-### 9. Termination
+This includes, where legally permitted, loss of data, loss of downloaded content, loss of shared categories, or interruption caused by third-party services.
 
-We may suspend or terminate your access to the App, or to individual features such as publishing categories, at any time, if you breach these Terms or where necessary to protect the App or its users.
+Nothing in these Terms limits liability that cannot legally be limited.
 
-### 10. Changes
+### 9. Termination and restrictions
 
-We may update these Terms. The effective date above will change and material changes will be announced in the App. Continuing to use the App after a change means you accept it.
+We may suspend or restrict access to the App or individual features, including category publishing, where reasonably necessary to:
+
+- enforce these Terms;
+- protect the App or its users;
+- prevent abuse or fraud;
+- comply with law; or
+- protect our rights or the rights of third parties.
+
+### 10. Changes to these Terms
+
+We may update these Terms from time to time.
+
+The effective date at the top will be updated when changes are made.
+
+Where required by law, material changes will be communicated through the App or another appropriate method.
 
 ### 11. Contact
 
-Questions about these Terms: mellossdev@gmail.com
+Questions about these Terms:
+
+**Email:** mellossdev@gmail.com
+
+---
+
+## Third-party privacy links
+
+The following third-party services may be used by Arganon depending on the features and configuration of the App:
+
+- Appodeal: https://appodeal.com/privacy-policy/
+- Google Privacy Policy: https://policies.google.com/privacy
+- Google Ads partner information: https://policies.google.com/technologies/partner-sites
+- Firebase Privacy and Security: https://firebase.google.com/support/privacy
+- Supabase Privacy Policy: https://supabase.com/privacy
+- Cloudflare Privacy Policy: https://www.cloudflare.com/privacypolicy/
+
+---
+
+## Important notice
+
+This Privacy Policy describes the current intended data handling of Arganon and its configured third-party services. Third-party SDKs and service providers may change their data practices, available features, or retention practices over time.
+
+Appodeal's documentation specifically states that its published SDK data-disclosure table covers the Appodeal SDK itself and that publishers must account separately for the data practices of each advertising network enabled through Appodeal.
+
+You should keep this Privacy Policy and the relevant Google Play Data Safety information synchronized with the exact SDKs, permissions, advertising networks, and features included in each released version of Arganon.
+
+This document is provided for informational and product-documentation purposes and is not legal advice.
